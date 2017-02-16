@@ -1,0 +1,606 @@
+2016-10-11 13:20:42 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Projects could not be found.
+Exception Attributes: array (
+  'class' => 'Projects',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/
+Referer URL: http://localhost/projects/PHP/MVC-CakePHP/
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2016-10-11 17:46:17 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Projects could not be found.
+Exception Attributes: array (
+  'class' => 'Projects',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/
+Referer URL: http://localhost/projects/PHP/MVC-CakePHP/
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2016-10-11 17:55:09 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Projects could not be found.
+Exception Attributes: array (
+  'class' => 'Projects',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/
+Referer URL: http://localhost/projects/PHP/MVC-CakePHP/
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2016-10-11 17:57:00 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Projects could not be found.
+Exception Attributes: array (
+  'class' => 'Projects',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/PagesController
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2016-10-11 17:57:08 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Projects could not be found.
+Exception Attributes: array (
+  'class' => 'Projects',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/PagesController/display
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2016-10-11 17:59:50 Error: [Cake\Routing\Exception\MissingControllerException] Controller class Projects could not be found.
+Exception Attributes: array (
+  'class' => 'Projects',
+  'plugin' => false,
+  'prefix' => false,
+  '_ext' => false,
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/PagesController/display
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ControllerFactory.php(72): Cake\Http\ControllerFactory->missingController(Object(Cake\Network\Request))
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(93): Cake\Http\ControllerFactory->create(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2016-10-11 18:00:25 Error: [Cake\Controller\Exception\MissingActionException] Action ProjectsController::pHP() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ProjectsController',
+  'action' => 'pHP',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/PagesController/display
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProjectsController))
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2016-10-11 18:01:24 Error: [Cake\Controller\Exception\MissingActionException] Action ProjectsController::pHP() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ProjectsController',
+  'action' => 'pHP',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/PagesController/display
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProjectsController))
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2016-10-11 18:04:58 Error: [Cake\View\Exception\MissingTemplateException] Template file "Projects\MVC-CakePHP\cakephp\PagesController\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Projects\\MVC-CakePHP\\cakephp\\PagesController\\display.ctp',
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/PagesController/display
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\View\View.php(591): Cake\View\View->_getViewFileName('MVC-CakePHP/cak...')
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render('MVC-CakePHP/cak...', NULL)
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\src\Controller\ProjectsController.php(57): Cake\Controller\Controller->render('MVC-CakePHP/cak...')
+#3 [internal function]: App\Controller\ProjectsController->php('MVC-CakePHP', 'cakephp', 'PagesController', 'display')
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProjectsController))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#15 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#16 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#17 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2016-10-11 18:05:56 Error: [Cake\Controller\Exception\MissingActionException] Action ProjectsController::pHP() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'ProjectsController',
+  'action' => 'pHP',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/PagesController/display
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProjectsController))
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2016-10-11 18:06:08 Error: [Cake\View\Exception\MissingTemplateException] Template file "Projects\MVC-CakePHP\cakephp\PagesController\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Projects\\MVC-CakePHP\\cakephp\\PagesController\\display.ctp',
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/PagesController/display
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\View\View.php(591): Cake\View\View->_getViewFileName('MVC-CakePHP/cak...')
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render('MVC-CakePHP/cak...', NULL)
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\src\Controller\ProjectsController.php(57): Cake\Controller\Controller->render('MVC-CakePHP/cak...')
+#3 [internal function]: App\Controller\ProjectsController->php('MVC-CakePHP', 'cakephp', 'PagesController', 'display')
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProjectsController))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#15 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#16 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#17 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2016-10-11 18:08:40 Error: [Cake\View\Exception\MissingTemplateException] Template file "Projects\MVC-CakePHP\cakephp\PagesController\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Projects\\MVC-CakePHP\\cakephp\\PagesController\\display.ctp',
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/PagesController/display
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\View\View.php(591): Cake\View\View->_getViewFileName('MVC-CakePHP/cak...')
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render('MVC-CakePHP/cak...', NULL)
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\src\Controller\ProjectsController.php(57): Cake\Controller\Controller->render('MVC-CakePHP/cak...')
+#3 [internal function]: App\Controller\ProjectsController->php('MVC-CakePHP', 'cakephp', 'PagesController', 'display')
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProjectsController))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#15 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#16 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#17 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2016-10-11 18:11:15 Error: [Cake\View\Exception\MissingTemplateException] Template file "Projects\MVC-CakePHP\cakephp\PagesController\display.ctp" is missing.
+Exception Attributes: array (
+  'file' => 'Projects\\MVC-CakePHP\\cakephp\\PagesController\\display.ctp',
+)
+Request URL: /projects/PHP/MVC-CakePHP/cakephp/PagesController/display
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\View\View.php(591): Cake\View\View->_getViewFileName('MVC-CakePHP/cak...')
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render('MVC-CakePHP/cak...', NULL)
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\src\Controller\ProjectsController.php(57): Cake\Controller\Controller->render('MVC-CakePHP/cak...')
+#3 [internal function]: App\Controller\ProjectsController->php('MVC-CakePHP', 'cakephp', 'PagesController', 'display')
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Controller\Controller.php(435): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\ProjectsController))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#15 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#16 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#17 C:\xampp\htdocs\Projects\PHP\MVC-CakePHP\cakephp\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2016-10-23 18:09:29 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::logout() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'logout',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/logout
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2016-10-23 18:18:03 Error: [Cake\View\Exception\MissingElementException] Element\actions.ctp
+Request URL: /patients
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\src\Template\Patients\index.ctp(2): Cake\View\View->element('actions', Array)
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\View\View.php(1012): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\View\View.php(971): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\View\View.php(595): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(128): Cake\Controller\Controller->render()
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PatientsController))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#13 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#14 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#15 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#16 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#17 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\webroot\index.php(37): Cake\Http\Server->run()
+#18 {main}
+
+
+2016-10-23 18:41:56 Error: Fatal Error (4): syntax error, unexpected '->' (T_OBJECT_OPERATOR) in [C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\src\Template\Doctors\index.ctp, line 21]
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/doctors
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/appointments
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-10-23 18:41:56 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '->' (T_OBJECT_OPERATOR)
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/doctors
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/appointments
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 21)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-10-23 18:47:48 Error: [Cake\View\Exception\MissingHelperException] Helper class FormatHelper could not be found.
+Exception Attributes: array (
+  'class' => 'FormatHelper',
+  'plugin' => NULL,
+)
+Request URL: /patients/view/2
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/patients
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Core\ObjectRegistry.php(91): Cake\View\HelperRegistry->_throwMissingClassError('Format', NULL)
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\View\HelperRegistry.php(67): Cake\Core\ObjectRegistry->load('Format')
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\View\View.php(903): Cake\View\HelperRegistry->__isset('Format')
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\src\Template\Patients\view.ctp(67): Cake\View\View->__get('Format')
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\View\View.php(1012): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\View\View.php(971): Cake\View\View->_evaluate('C:\\xampp\\htdocs...', Array)
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\View\View.php(595): Cake\View\View->_render('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Controller\Controller.php(617): Cake\View\View->render(NULL, NULL)
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(128): Cake\Controller\Controller->render()
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\PatientsController))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#13 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#14 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#15 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#16 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#17 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#18 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#19 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#20 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\webroot\index.php(37): Cake\Http\Server->run()
+#21 {main}
+
+
+2016-10-25 10:17:42 Error: Fatal Error (1): Class 'Cake\Auth\DefaultPassswordHasher' not found in [C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\src\Model\Entity\User.php, line 44]
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/users/add
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/add
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-10-25 10:17:43 Error: [Cake\Error\FatalErrorException] Class 'Cake\Auth\DefaultPassswordHasher' not found
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/users/add
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'Cake\\Aut...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-10-25 10:17:56 Error: Fatal Error (1): Class 'App\Model\Entity\DefaultPassswordHasher' not found in [C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\src\Model\Entity\User.php, line 44]
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/users/add
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/add
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-10-25 10:17:56 Error: [Cake\Error\FatalErrorException] Class 'App\Model\Entity\DefaultPassswordHasher' not found
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/users/add
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/add
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(1, 'Class 'App\\Mode...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-10-25 11:03:03 Error: [Cake\Controller\Exception\MissingActionException] Action UsersController::login() could not be found, or is not accessible.
+Exception Attributes: array (
+  'controller' => 'UsersController',
+  'action' => 'login',
+  'prefix' => '',
+  'plugin' => NULL,
+)
+Request URL: /users/login
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(122): Cake\Controller\Controller->invokeAction()
+#1 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\ActionDispatcher.php(96): Cake\Http\ActionDispatcher->_invoke(Object(App\Controller\UsersController))
+#2 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\BaseApplication.php(83): Cake\Http\ActionDispatcher->dispatch(Object(Cake\Network\Request), Object(Cake\Network\Response))
+#3 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Http\BaseApplication->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#4 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Routing\Middleware\RoutingMiddleware.php(53): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#5 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\RoutingMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#6 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Routing\Middleware\AssetMiddleware.php(88): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#7 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Routing\Middleware\AssetMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#8 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Error\Middleware\ErrorHandlerMiddleware.php(81): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#9 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(65): Cake\Error\Middleware\ErrorHandlerMiddleware->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response), Object(Cake\Http\Runner))
+#10 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Runner.php(51): Cake\Http\Runner->__invoke(Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#11 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Http\Server.php(92): Cake\Http\Runner->run(Object(Cake\Http\MiddlewareQueue), Object(Zend\Diactoros\ServerRequest), Object(Zend\Diactoros\Response))
+#12 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\webroot\index.php(37): Cake\Http\Server->run()
+#13 {main}
+
+
+2016-10-25 11:59:45 Error: Fatal Error (1): Call to a member function read() on null in [C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\src\Controller\AppController.php, line 76]
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-10-25 12:00:15 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\src\Template\Layout\default.ctp, line 44]
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-10-25 12:00:16 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-10-25 12:00:41 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\src\Template\Layout\default.ctp, line 44]
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-10-25 12:00:41 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-10-25 12:01:28 Error: Fatal Error (4): syntax error, unexpected 'if' (T_IF) in [C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\src\Template\Layout\default.ctp, line 44]
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-10-25 12:01:28 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'if' (T_IF)
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-10-25 12:02:11 Error: Fatal Error (4): syntax error, unexpected 'echo' (T_ECHO) in [C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\src\Template\Layout\default.ctp, line 44]
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-10-25 12:02:12 Error: [Cake\Error\FatalErrorException] syntax error, unexpected 'echo' (T_ECHO)
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 44)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
+2016-10-25 12:02:20 Error: Fatal Error (4): syntax error, unexpected '?>' in [C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\src\Template\Layout\default.ctp, line 58]
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/login
+Trace:
+Cake\Error\BaseErrorHandler::handleFatalError() - CORE\src\Error\BaseErrorHandler.php, line 216
+Cake\Error\BaseErrorHandler::Cake\Error\{closure}() - CORE\src\Error\BaseErrorHandler.php, line 98
+[main] - [internal], line ??
+
+
+
+2016-10-25 12:02:21 Error: [Cake\Error\FatalErrorException] syntax error, unexpected '?>'
+Request URL: /projects/PHP/MVC-CakePhp/Project2-PatientCare/
+Referer URL: http://localhost/projects/PHP/MVC-CakePhp/Project2-PatientCare/users/login
+Stack Trace:
+#0 C:\xampp\htdocs\Projects\PHP\MVC-CakePhp\Project2-PatientCare\vendor\cakephp\cakephp\src\Error\BaseErrorHandler.php(98): Cake\Error\BaseErrorHandler->handleFatalError(4, 'syntax error, u...', 'C:\\xampp\\htdocs...', 58)
+#1 [internal function]: Cake\Error\BaseErrorHandler->Cake\Error\{closure}()
+#2 {main}
+
+
